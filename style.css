@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 80px 35px 35px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #000;
+}
+
+header h1 a {
+    color: rgb(253, 19, 19);
+    text-decoration: none;
+}
+header h1 a:hover {
+    color: rgb(255, 56, 56);
+}
+
+div {
+    padding: 50px;
+}
+
+#input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+#input-box p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+#input-cep {
+    padding: 16px;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(238, 238, 238);
+}
+
+div button {
+    padding: 12px 40px 12px 40px;
+    font-size: 1.15rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    border-radius: 60px;
+    cursor: pointer;
+    background-color: rgb(255, 24, 24);
+    transition: 0.4s;
+}
+div button:hover {
+    background-color: rgb(248, 248, 248);
+}
+
+.span-error-value {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(253, 19, 19);
+}
+
+
+/* Map */
+
+#div-map {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+#map {
+    height: 700px;
+    width: 900px;
+}
